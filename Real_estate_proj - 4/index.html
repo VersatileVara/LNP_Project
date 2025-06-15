@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LNP Constructions</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+  <header class="site-header">
+    <div class="container">
+      
+      <!-- Logo + Tagline -->
+      <div class="logo">
+        LNP Constructions
+        <div class="logo-line">Quality. Safety. Reliability. Every time.</div>
+      </div>
+      <!-- Navigation Links -->
+      <nav class="main-nav">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <!-- Step Toggle (Hamburger) -->
+     <div class="step-bar" onclick="toggleMenu()">
+      <div class="step-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar short"></span>
+      </div>
+
+
+      <!-- Place mobile menu INSIDE the same div -->
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="#THE FORCE BEHIND">Services</a>
+        <a href="#OUR TEAM">About</a>
+        <a href="#A FRESH APPROACH TO CONSTRUCTION.">Contact</a>
+      </div>
+    </div>
+    </div>
+  </header>
+ 
+
+  <section class="hero">
+    <div class="hero-overlay">
+      <div class="hero-text">
+        <h1>We Build Your Vision</h1>
+        <p>From blueprint to reality – Trusted by 100+ clients</p>
+        <a href="#contact" class="btn btn-primary">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="card-grid">
+      <div class="card">
+        <img src="images/images2.jpg" alt="Project @ Nandi Hills">
+        <h3>Project @ Nandi Hills</h3>
+        <hr>
+        <p>Client Name : Mr. Bhaskar</p> 
+        <p>Plot Area : 8255 sft</p> 
+        <p>Total Built up Area : 7460 sft</p>  
+        <p>Project Period : 10 months</p>
+      </div>
+      <div class="card">
+        <img src="images/images3.jpg" alt="Project Near Airport, Kannamangala Gate, Devanahalli Main Road">
+        <h3>Project Near Airport, Kannamangala Gate, Devanahalli Main Road</h3>
+        <hr>
+        <p>Client Name : Mr. Ivon</p>  
+        <p>Plot Area : 3600 sft</p>  
+        <p>Total Built up area : 6510 sft</p>  
+        <p>Project Period : 11 months</p>
+      </div>
+      <div class="card">
+        <img src="images/images4.jpg" alt="Project Near Nandi Hills">
+        <h3>Project Near Nandi Hills</h3>
+        <hr>
+        <p>Client Name : Mr. Karan</p> 
+        <p> Plot Area : 3200 sft</p>
+        <p> Total built up area : 6050 sft</p>
+        <p> Project Period : 11 months</p>
+      </div>
+      <div class="card">
+        <img src="images/images5.jpg" alt="Project Near Nandi Hills">
+        <h3>Project Near Nandi Hills</h3>
+        <hr>
+        <p>Client Name : Mr. Kaushik</p>  
+        <p>Plot Area : 4826 sft</p> 
+        <p>Total Built up area : 8200 sft</p>
+        <p>Project Period : 11 months </p>
+      </div>
+      <div class="card">
+        <img src="images/images6.jpg" alt="Project Near Nandi Hills">
+        <h3>Project Near Nandi Hills</h3>
+        <hr>
+        <p>Client Name : Mr. Pradeep</p>
+        <p>Plot Area : 4410 sft</p>
+        <p>Total built up area : 8200 sft</p>
+        <p>Project Period : 11 months</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>LNP Construction was incorporated in the
+          year 2019 and we have been providing
+          quality, all round service in the construction
+          field ever since.
+          Our expertise in all the areas of construction
+          has a strong foundation and we have gone
+          from strength to strength with every passing
+          year, setting higher standards for ourselves
+          and striving hard to achieve them.</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Let’s Build Together</h2>
+    <p>📞 Call us at <strong>+91  99865 56510 / 63643 67676</strong> or drop an email at <strong> lnpd.construction@gmail.com</strong></p>
+    <a href="Mobile: 99865 56510 / 63643 67676 " class="btn btn-primary">📞 Call Now</a>
+  </section>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 LNP Constructions Pvt Ltd. All rights reserved.</p>
+  </footer>
+    <script>
+      function toggleMenu() {
+        const menu = document.getElementById('mobileMenu');
+        menu.classList.toggle('show');
+      }
+    </script>
+</body>
+</html>
